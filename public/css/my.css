@@ -1,0 +1,42 @@
+.thumbnail{
+    padding: 0px;
+    position: relative;
+}
+
+.thumbnail .caption{
+    padding: 0px;
+}
+
+.thumbnail .caption a{
+    color: black;
+    text-decoration: none;
+}
+
+.thumbnail .icon-bar{
+    width:100%;
+    background-color: #dff0d8;
+    opacity: 0.7;
+    list-style: none;
+    z-index: 100;
+    position: absolute;
+    top:0;
+}
+.thumbnail .icon-bar li{
+    float: right;
+    margin-right: 3px;
+}
+
+.thumbnail .icon-bar li .fa-btn{
+    color: #d9534f;
+}
+
+.thumbnail li .btn{
+    background: transparent;
+    border:none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.project-modal{
+
+}
